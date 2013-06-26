@@ -16,5 +16,9 @@
   "gitHead": "57da7bf93c107c0b7838970105a20b058e61d06e",
   "bugs": {
     "url": "https://github.com/lotsofcode/grunt-workflow/issues"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0"
   }
 }
