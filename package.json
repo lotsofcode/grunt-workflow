@@ -1,0 +1,20 @@
+{
+  "name": "grunt-workflow",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lotsofcode/grunt-workflow.git"
+  },
+  "author": "Del Harvey",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "57da7bf93c107c0b7838970105a20b058e61d06e",
+  "bugs": {
+    "url": "https://github.com/lotsofcode/grunt-workflow/issues"
+  }
+}
