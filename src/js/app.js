@@ -1,3 +1,3 @@
 var element = document.getElementById('helloworld');
 
-element.innerHTML += ' (from JavaScript)'
+element.innerHTML += ' (from JavaScript + Grunt)'

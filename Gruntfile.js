@@ -20,12 +20,27 @@ module.exports = function(grunt) {
 					js  : 'app.js'
 				}
 			}
+		},
+		watch : {
+			js : {
+				files: ['<%= concat.js.src %>'],
+				tasks: ['concat:js']
+			},
+			css : {
+				files: ['<%= concat.css.src %>'],
+				tasks: ['concat:css']
+			},
+			homepage : {
+				files: ['<%= homepage.template %>'],
+				tasks: ['homepage:dev']
+			},
 		}
 	});
 
 	grunt.loadNpmTasks("grunt-contrib-concat");
+	grunt.loadNpmTasks("grunt-contrib-watch");
 
 	grunt.loadTasks("tasks");
 
-	grunt.registerTask("default", ["concat", "homepage:dev"]);
+	grunt.registerTask("default", ["concat", "homepage:dev", "watch"]);
 }

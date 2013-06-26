@@ -30,7 +30,7 @@ module.exports = function(grunt) {
 		grunt.file.write(targetConfig.dest, _(source).template(context));
 
 		// write output to the log
-		grunt.log.writeln("Homepage HTML written" + targetConfig.dest + " done!");
+		grunt.log.writeln("Homepage HTML written '" + targetConfig.dest + "' done!");
 	});
 
 };
