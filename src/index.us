@@ -1,13 +1,11 @@
 <html>
 <head>
+	<link rel="stylesheet" href="<%= css %>">
 </head>
+	<body>
 
-<%= css %>
+	<h1 id="helloworld">Hello World</h1>
 
-<body>
-
-
-
-<%= js %>
+	<script src="<%= js %>"></script>
 </body>
 </html>
