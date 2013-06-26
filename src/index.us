@@ -1,0 +1,13 @@
+<html>
+<head>
+</head>
+
+<%= css %>
+
+<body>
+
+
+
+<%= js %>
+</body>
+</html>
